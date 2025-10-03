@@ -1,0 +1,69 @@
+/* Setup */
+html, body, * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: "Zalando Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+@font-face {
+  font-family: "Squids";
+  src: url("./assets/fonts/Squids.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+}
+h1 {
+    font-size: 2.027rem;
+}
+
+h2 {
+    font-size: 1.802rem;
+}
+
+h3 {
+    font-size: 1.602rem;
+}
+
+h4 {
+    font-size: 1.424rem;
+}
+
+h5 {
+    font-size: 1.266rem;
+}
+
+h6 {
+    font-size: 1.125rem;
+}
+
+small {
+    font-size: 0.889rem;
+}
+
+/* Variables */
+
+
+#main-article {
+    max-width: 65rem;
+    width: 100%;
+
+    position: absolute; 
+    left: 50%; 
+    top: 0;
+    transform: translateX(-50%);
+
+    padding: 1rem;
+}
